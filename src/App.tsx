@@ -69,3 +69,9 @@ function App() {
 }
 
 export default App;
+
+/*
+ * SOLUCIÓN DE ERROR: vite react typescript Uncaught ReferenceError: global is not defined at node_modules/react-codemirror2/index.js
+ * https://github.com/react-simple-code-editor/react-simple-code-editor/issues/86
+ * https://stackoverflow.com/questions/72114775/vite-global-is-not-defined
+ */
