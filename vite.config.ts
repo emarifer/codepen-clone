@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   base:
     process.env.NODE_ENV === "production"
-      ? "/codepen/" // prod
+      ? "/codepen-clone/" // prod
       : "/", // dev
   plugins: [react()],
 });
